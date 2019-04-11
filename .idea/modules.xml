@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus-generator.iml" group="mybatis-plus-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus-generator/mybatis-plus-generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus-generator/mybatis-plus-generator_main.iml" group="mybatis-plus-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus-generator/mybatis-plus-generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus-generator/mybatis-plus-generator_test.iml" group="mybatis-plus-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus_main.iml" group="mybatis-plus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis-plus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis-plus_test.iml" group="mybatis-plus" />
+    </modules>
+  </component>
+</project>

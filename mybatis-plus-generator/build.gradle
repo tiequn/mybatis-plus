@@ -1,0 +1,20 @@
+group 'com.gz'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-freemarker', version: '2.0.3.RELEASE'
+    compile("com.baomidou:mybatis-plus-generator:3.0.4")
+    compile "mysql:mysql-connector-java:5.1.35"
+    compile group: 'org.freemarker', name: 'freemarker', version: '2.3.28'
+
+
+}
