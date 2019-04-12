@@ -1,5 +1,7 @@
 package com.gz.xuezi.util;
 
+import com.gz.xuezi.enumErate.ErrorCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
