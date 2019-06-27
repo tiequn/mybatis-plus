@@ -118,8 +118,8 @@ public class MybatisPlusGenerator {
         dsc.setDbType(DbType.MYSQL);
         dsc.setUrl("jdbc:mysql://47.112.2.235:3306/ziyoutong");
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("password!@#");
+        dsc.setUsername("www");
+        dsc.setPassword("!@#");
         mpg.setDataSource(dsc);
         // 包配置
         PackageConfig pc = new PackageConfig();

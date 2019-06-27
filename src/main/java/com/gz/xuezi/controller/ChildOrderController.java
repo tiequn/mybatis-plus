@@ -1,7 +1,6 @@
 package com.gz.xuezi.controller;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.gz.xuezi.entity.ChildOrder;
 import com.gz.xuezi.enumErate.EfficacyStateEnum;
 import com.gz.xuezi.mapper.ChildOrderMapper;
@@ -13,7 +12,6 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
