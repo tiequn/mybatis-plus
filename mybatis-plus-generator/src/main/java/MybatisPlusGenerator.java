@@ -69,7 +69,7 @@ public class MybatisPlusGenerator {
         final String projectPath = "/Users/gz/study/学习项目/mybatis-plus";
         if (true) {
             // 所有表
-            String[] tableNames = {"child_order", "main_order"};
+            String[] tableNames = {"child", "main"};
             Cfg cfg = new Cfg();
             cfg.setTableNames(tableNames);
             cfg.setProjectPath(projectPath);
@@ -116,10 +116,10 @@ public class MybatisPlusGenerator {
         //[config]
         // 必须指定dbType，否则 DataSourceConfig 会报错：MybatisPlusException: Unknown type of database!
         dsc.setDbType(DbType.MYSQL);
-        dsc.setUrl("jdbc:mysql://47.112.2.235:3306/ziyoutong");
+        dsc.setUrl("jdbc:mysql://47.112.2.102:3306/yali");
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("www");
-        dsc.setPassword("!@#");
+        dsc.setUsername("yali");
+        dsc.setPassword("yali");
         mpg.setDataSource(dsc);
         // 包配置
         PackageConfig pc = new PackageConfig();
