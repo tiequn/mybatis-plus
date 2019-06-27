@@ -88,26 +88,26 @@
   }
   
 ## 注解
-  @TableName
-  描述：表名注解
-  属性	             类型	必须指定	默认值	描述
-  value	            String	   否	  ""	表名
-  resultMap	        String	   否	  ""	xml 中 resultMap 的 id
-  schema	        String	   否	  ""	schema(@since 3.1.1)
-  keepGlobalPrefix	boolean    否	false	是否保持使用全局的 tablePrefix 的值(如果设置了全局 tablePrefix 且自行设置了 value 的值)(@since 3.1.1)
-  #@TableId
-  描述：主键注解
-  属性	 类型	必须指定	 默认值	         描述
-  value	 String	   否	  ""	        主键字段名
-  type	 Enum	   否	  IdType.NONE	主键类型
-  #IdType
-  值	描述
-  AUTO	数据库自增
-  INPUT	自行输入
-  ID_WORKER	分布式全局唯一ID 长整型类型
-  UUID	32位UUID字符串
-  NONE	无状态
-  ID_WORKER_STR	分布式全局唯一ID 字符串类型
+  - @TableName
+  - 描述：表名注解
+  - 属性	                 类型	必须指定	默认值	描述
+  - value	            String	   否	  ""	表名
+  - resultMap	        String	   否	  ""	xml 中 resultMap 的 id
+  - schema	            String	   否	  ""	schema(@since 3.1.1)
+  - keepGlobalPrefix	boolean    否	false	是否保持使用全局的 tablePrefix 的值(如果设置了全局 tablePrefix 且自行设置了 value 的值)(@since 3.1.1)
+## @TableId
+  - 描述：主键注解
+  - 属性	         类型	必须指定	 默认值	         描述
+  - value	    String	   否	  ""	        主键字段名
+  - type	    Enum	   否	  IdType.NONE	主键类型
+## IdType
+  - 值	            描述
+  - AUTO	        数据库自增
+  - INPUT	        自行输入
+  - ID_WORKER	    分布式全局唯一ID 长整型类型
+  - UUID	        32位UUID字符串
+  - NONE	        无状态
+  - ID_WORKER_STR	分布式全局唯一ID 字符串类型
   #@TableField
   描述：字段注解(非主键)
   属性	类型	必须指定	默认值	描述
